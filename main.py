@@ -18,7 +18,7 @@ class Human:
         pass
     def work(self):
         pass
-    def shopping(self):
+    def shopping(self, manage):
         pass
     def chill(self):
         pass
@@ -26,6 +26,11 @@ class Human:
         pass
     def to_repair(self):
         pass
+    def deys_indexes(self, dey):
+        pass
+    def is_alive(self):
+        pass
+    def live(self, dey):
 class Auto:
     def __init__(self,brand):
         self.brand=brand
